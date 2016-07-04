@@ -1,0 +1,13 @@
+
+allprojects {
+
+    apply plugin: 'idea'
+
+    group = 'springTest'
+
+    version = '0.1'
+}
+
+subprojects {
+    apply plugin: 'java'
+}
